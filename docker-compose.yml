@@ -1,0 +1,9 @@
+services:
+  daemon:
+    build: .
+    environment:
+      - DEBUG=*
+      - NODE_URL=${NODE_URL}
+      - AWS_ID=${AWS_ID}
+      - AWS_SECRET=${AWS_SECRET}
+      - BUCKET_NAME=${BUCKET_NAME}
