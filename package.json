@@ -1,6 +1,6 @@
 {
   "name": "edi-circulating-supply",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Script for calculating circulating supply of EDI and upload the result to S3",
   "main": "index.js",
   "license": "MIT",
